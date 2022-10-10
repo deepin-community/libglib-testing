@@ -1,0 +1,15 @@
+Overview of changes in libglib-testing 0.1.0
+============================================
+
+* Project created
+
+* D-Bus queue and signal logger harnesses built
+
+* Bugs fixed:
+ - !1 Signal logger, documentation, coverage and CI
+ - !2 build: Simplify pkg-config file generation
+ - !3 lib: Fix some argument alignment
+ - !4 lib: Add GtDBusQueue for creating mock D-Bus services
+ - !5 build: Don’t install things if used as a subproject
+ - !6 tests: Don’t use install kwarg to configure_file(); it doesn’t exist
+ - !8 dbus-queue: Minor documentation fixes and additions

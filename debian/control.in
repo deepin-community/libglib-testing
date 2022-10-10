@@ -1,0 +1,55 @@
+Source: libglib-testing
+Priority: optional
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: @GNOME_TEAM@
+Build-Depends: dbus <!nocheck>,
+               debhelper-compat (= 12),
+               gnome-pkg-tools,
+               gtk-doc-tools,
+               libglib2.0-dev (>= 2.44),
+               meson (>= 0.45.0)
+Build-Depends-Indep: libglib2.0-doc <!nodoc>
+Standards-Version: 4.5.0
+Rules-Requires-Root: no
+Section: libs
+Homepage: https://gitlab.gnome.org/pwithnall/libglib-testing
+Vcs-Browser: https://salsa.debian.org/gnome-team/libglib-testing
+Vcs-Git: https://salsa.debian.org/gnome-team/libglib-testing.git
+
+Package: libglib-testing-0-0
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: test library providing test harnesses and mock classes
+ libglib-testing is a test library providing test harnesses and mock classes
+ which complement the classes provided by GLib.
+ It is intended to be used by any project which uses GLib and which wants to
+ write internal unit tests.
+
+Package: libglib-testing-0-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends: libglib-testing-0-0 (= ${binary:Version}),
+         libglib2.0-dev (>= 2.44),
+         ${misc:Depends}
+Description: Development files for the libglib-testing library
+ libglib-testing is a test library providing test harnesses and mock classes
+ which complement the classes provided by GLib.
+ It is intended to be used by any project which uses GLib and which wants to
+ write internal unit tests.
+ .
+ This package contains the development files.
+
+Package: libglib-testing-doc
+Section: doc
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: Documentation for the libglib-testing library
+ libglib-testing is a test library providing test harnesses and mock classes
+ which complement the classes provided by GLib.
+ It is intended to be used by any project which uses GLib and which wants to
+ write internal unit tests.
+ .
+ This package contains the documentation.

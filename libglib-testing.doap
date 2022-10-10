@@ -1,0 +1,15 @@
+<Project xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns="http://usefulinc.com/ns/doap#">
+	<name xml:lang="en">libglib-testing</name>
+	<shortdesc xml:lang="en">libglib-testing provides test harnesses and mock classes</shortdesc>
+	<description xml:lang="en">libglib-testing is a test library providing test harnesses and mock classes which complement the classes provided by GLib.</description>
+	<homepage rdf:resource="https://gitlab.gnome.org/pwithnall/libglib-testing"/>
+	<license rdf:resource="http://usefulinc.com/doap/licenses/lgpl"/>
+	<download-page rdf:resource="https://gitlab.gnome.org/pwithnall/libglib-testing"/>
+	<maintainer>
+		<foaf:Person>
+			<foaf:name>Philip Withnall</foaf:name>
+			<foaf:mbox rdf:resource="mailto:withnall@endlessm.com"/>
+		</foaf:Person>
+	</maintainer>
+</Project>
+

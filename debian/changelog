@@ -1,0 +1,5 @@
+libglib-testing (0.1.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #953250)
+
+ -- Laurent Bigonville <bigon@debian.org>  Wed, 08 Apr 2020 18:52:31 +0200

@@ -1,0 +1,2 @@
+version=4
+https://gitlab.gnome.org/pwithnall/libglib-testing/tags?sort=updated_desc .*/archive/(\d\S+)/.*\.tar\.bz2

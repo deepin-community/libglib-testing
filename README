@@ -1,0 +1,48 @@
+libglib-testing
+===============
+
+libglib-testing is a test library providing test harnesses and mock classes
+which complement the classes provided by GLib. It is intended to be used by
+any project which uses GLib and which wants to write internal unit tests.
+
+libglib-testing is a separate project from GLib itself for two reasons:
+ • To allow unstable API to be prototyped before being stabilised.
+ • To keep test harness API out of libglib, since it should only be needed
+   at test time, not at runtime.
+
+All the library APIs are currently unstable and are likely to change wildly.
+
+Dependencies
+============
+
+ • gio-2.0 ≥ 2.54
+ • glib-2.0 ≥ 2.54
+ • gobject-2.0 ≥ 2.54
+
+Development
+===========
+
+Development documentation and code coverage reports are available here:
+
+https://pwithnall.pages.gitlab.gnome.org/libglib-testing/docs/
+https://pwithnall.pages.gitlab.gnome.org/libglib-testing/coverage/
+
+Licensing
+=========
+
+The libraries in libglib-testing are licensed under the LGPL. See COPYING
+for more details.
+
+Bugs
+====
+
+Bug reports and patches should be reported by e-mail to one of the authors or
+filed in GitLab:
+
+https://gitlab.gnome.org/pwithnall/libglib-testing/issues/new
+
+Contact
+=======
+
+Philip Withnall <withnall@endlessm.com>
+https://gitlab.gnome.org/pwithnall/libglib-testing
